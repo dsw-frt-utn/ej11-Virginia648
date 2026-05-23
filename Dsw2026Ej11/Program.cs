@@ -34,7 +34,7 @@ internal class Program
                     break;
                 case "4":
                     salir = true;
-                    Console.WriteLine("¡Hasta luego!");
+                    Console.WriteLine("Hasta luego");
                     break;
                 default:
                     Console.WriteLine("Opción no válida. Presione una tecla para continuar...");
@@ -46,14 +46,14 @@ internal class Program
 
     static void MostrarMenu()
     {
-        Console.WriteLine("═══════════════════════════════════════");
+        Console.WriteLine("═════════════════════════════════════");
         Console.WriteLine("           MENÚ PRINCIPAL");
-        Console.WriteLine("═══════════════════════════════════════");
+        Console.WriteLine("═════════════════════════════════════");
         Console.WriteLine("1. Ejemplo List");
         Console.WriteLine("2. Ejemplo Dictionary");
         Console.WriteLine("3. Ejemplo LINQ");
         Console.WriteLine("4. Salir");
-        Console.WriteLine("═══════════════════════════════════════");
+        Console.WriteLine("═════════════════════════════════════");
         Console.Write("Seleccione una opción: ");
     }
 
